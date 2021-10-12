@@ -1,0 +1,31 @@
+@import "fonts";
+@import "header";
+@import "shooting-stars";
+@import "images-grid";
+.genesis {
+    max-width: 1506px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.body {
+    font-family: $myFont
+}
+.hello__head {
+    @include font-big;
+    color: $myFont-color;
+}
+.hello__text {
+    @include font-biggest;
+}
+.designer-color {
+    color: $myFont-color;
+}
+.design-progress {
+    @include font-small;
+    font-style: italic;
+}
+.love-work {
+    @include font-bigger;
+} 

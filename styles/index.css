@@ -1,2 +1,163 @@
+.header {
+  max-width: 1109px;
+  width: 100%;
+  display: flex;
+  margin-top: 60px;
+  justify-content: space-between;
+}
 
+.header__nav {
+  max-width: 100px;
+  width: 100%;
+}
+
+.header__nav__genesis {
+  max-width: 90px;
+  width: 100%;
+}
+
+.header__nav__genesis:hover {
+  max-width: 100px;
+  width: 100%;
+}
+
+.header__nav__contact-project {
+  max-width: 200px;
+  width: 100%;
+  display: inline;
+}
+
+.header__nav__project {
+  max-width: 67px;
+  width: 100%;
+  margin-right: 29px;
+}
+
+.header__nav__contact {
+  max-width: 66px;
+  width: 100%;
+}
+
+.hello {
+  grid-area: 3/1/7/8;
+}
+
+.design-progress {
+  grid-area: 6/10/7/12;
+}
+
+.grid-container {
+  max-width: 1110px;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  box-sizing: border-box;
+  padding: 0 20px;
+  margin-top: 80px;
+}
+
+.grid-item {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(9, 1fr);
+  grid-template-rows: repeat(32, 1fr);
+  grid-gap: 27px;
+}
+
+.statue-colors {
+  grid-area: 1/1/8/4;
+}
+
+.cactus-baloon-person {
+  grid-area: 8/1/16/4;
+}
+
+.gloriasunrise {
+  grid-area: 16/1/24/4;
+}
+
+.flowerfeild {
+  grid-area: 24/1/33/4;
+}
+
+.manheadtornado {
+  grid-area: 1/4/7/7;
+}
+
+.statueliberty {
+  grid-area: 7/4/14/7;
+}
+
+.girl-orange-dots {
+  grid-area: 14/4/23/7;
+}
+
+.desertwalk {
+  grid-area: 23/4/33/7;
+}
+
+.greyflowerface {
+  grid-area: 1/7/11/10;
+}
+
+.manmeltedtin {
+  grid-area: 11/7/18/10;
+}
+
+.swingingpiano {
+  grid-area: 18/7/27/10;
+}
+
+.greenhills {
+  grid-area: 27/7/33/10;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.genesis {
+  max-width: 1506px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.body {
+  font-family: "Mulish", sans-serif;
+}
+
+.hello__head {
+  font-size: 22px;
+  line-height: 28px;
+  font-weight: 700;
+  color: #4A4FF2;
+}
+
+.hello__text {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 55px;
+}
+
+.designer-color {
+  color: #4A4FF2;
+}
+
+.design-progress {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22, 59px;
+  font-style: italic;
+}
+
+.love-work {
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 38px;
+}
 /*# sourceMappingURL=index.css.map */
