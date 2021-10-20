@@ -5,44 +5,74 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/reset.css">
-    <link rel="stylesheet" href="styles/index.css">
+    <link rel="stylesheet" href="styles/contact.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;700&display=swap" rel="stylesheet">
     <title>Contact</title>
 </head>
 <body>
-    <header class="header">
-        <nav class="header__nav">
-            <a href="genesis.html">Genesis</a>
-            <a href="project-details.html">Projects</a>
-            <a href="contact.html">Contact</a>
-        </nav>
-    </header>
-    <div>
-        <h3>Full set of great
-        features to make your
-        product fresh</h3>
-        <p>Our favorite brands are our friends! We help them to achieve their goals, they help us to stay sharp.
-        </p>
+    <div class="header">
+        <div class="header__nav">
+            <nav>
+            <a href="index.html" class="header__nav__genesis"><img src="images/head-foot/Logo.png" alt="Genesis-logo" class="logo"></a>
+            </nav>
+        </div>
+        <div class="header__nav__contact-project">    
+            <nav>
+                <ul>
+                    <a href="project-details.html" ><img src="images/head-foot/Projects.png" alt="Genesis-projects" class="header__nav__project"></a>
+                    <a href="contact.html"><img src="images/head-foot/Contact.png" alt="Genesis-contact" class="header__nav__contact"></a>
+                </ul>
+                </nav>
+        </div>
     </div>
-    <form>
-        <label for="name"></label><br>
-        <input type="text" id="name" name="name"><br>
-        <label for="email"></label><br>
-        <input type="email" id="email" name="email">
-        <label for="message"></label><br>
-        <input type="text"></label><br>
-        <label for="submit"></label><br>
-        <input type="submit" id="submit" name="submit"><br>
-      </form>
-      <img src="images/Map.png" alt="">
-      <footer>
-        <nav>
-            <a href="genesis.html">Genesis</a>
-            <a href="project-details.html">Projects</a>
-            <a href="contact.html">Contact</a>
-        </nav>
-    </footer>
+    <div class="container">
+        <div class="text">
+                <div class="text__head">
+                    <h3>Full set of great
+                    features to make your
+                    product fresh</h3>
+                </div>
+                <div class="text__p">
+                    <p>Our favorite brands are our friends! We help them to achieve their goals, they help us to stay sharp.
+                    </p>
+                </div>
+        </div>
+        <div class="form">
+            <form>
+                <label for="name"></label><br>
+                <input type="text" id="name" name="name" placeholder="Name"><br>
+                <label for="email"></label><br>
+                <input type="email" id="email" name="email" placeholder="Email">
+                <label for="message"></label><br>
+                <input type="text" id="message" name="message" placeholder="Message"></label><br>
+                <button style="button" class="btn">Submit</button>
+            </form>
+        </div>
+    </div>
+        <img src="images/Map.png" alt="genesis map" class="img-map">
+      
+      <div class="footer">
+        <div class="footer__nav">
+            <nav>
+            <a href="genesis.html" class="header__nav__genesis"><img src="images/head-foot/Logo.png" alt="Genesis-logo" class="logo"></a>
+            </nav>
+        </div>
+        <br>
+        <div class="footer__nav__contact-project">    
+            <nav>
+                <ul>
+                    <a href="project-details.html" ><img src="images/head-foot/Projects.png" alt="Genesis-projects" class="footer__nav__project"></a>
+                    <a href="contact.html"><img src="images/head-foot/Contact.png" alt="Genesis-contact" class="footer__nav__contact"></a>
+                </ul>
+                </nav>
+        </div>
+        <div class="footer__media">
+            <img src="images/head-foot/dribbble-logo.png" alt="dribbble-logo" class="basket-logo">
+            <img src="images/head-foot/instagram.png" alt="logo-instagram" class="insta-logo">
+            <img src="images/twitter-logo-silhouette.png" alt="logo-twitter">
+        </div>
+    </div>
 </body>
 </html>

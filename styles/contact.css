@@ -1,0 +1,166 @@
+.header {
+  max-width: 1109px;
+  width: 100%;
+  display: flex;
+  margin-top: 60px;
+  justify-content: space-between;
+}
+
+.header__nav {
+  max-width: 100px;
+  width: 100%;
+}
+
+.header__nav__genesis {
+  max-width: 90px;
+  width: 100%;
+}
+
+.header__nav__genesis:hover {
+  max-width: 100px;
+  width: 100%;
+}
+
+.header__nav__contact-project {
+  max-width: 200px;
+  width: 100%;
+  display: inline;
+}
+
+.header__nav__project {
+  max-width: 67px;
+  width: 100%;
+  margin-right: 29px;
+}
+
+.header__nav__contact {
+  max-width: 66px;
+  width: 100%;
+}
+
+.footer {
+  max-width: 1109px;
+  width: 100%;
+  display: flex;
+  margin-top: 60px;
+  justify-content: space-between;
+}
+
+.footer __nav {
+  max-width: 100px;
+  width: 100%;
+}
+
+.footer__nav__genesis {
+  max-width: 90px;
+  width: 100%;
+}
+
+.footer__nav__genesis:hover {
+  max-width: 100px;
+  width: 100%;
+}
+
+.footer__nav__contact-project {
+  max-width: 200px;
+  width: 100%;
+  display: inline;
+}
+
+.footer__nav__project {
+  max-width: 67px;
+  width: 100%;
+  margin-right: 29px;
+}
+
+.footer__nav__contact {
+  max-width: 66px;
+  width: 100%;
+}
+
+.footer__media {
+  max-width: 95px;
+  width: 100%;
+  display: flex;
+}
+
+.basket-logo, .insta-logo {
+  margin-right: 24px;
+}
+
+body {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: space-between;
+  margin: 3rem 3rem;
+  padding: 3rem 3rem;
+}
+
+.container {
+  max-width: 1110px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.text {
+  max-width: 475px;
+  width: 100%;
+}
+
+.text__head {
+  max-width: 475px;
+  width: 100%;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 55px;
+}
+
+.text__p {
+  max-width: 445px;
+  width: 100%;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.form {
+  max-width: 475px;
+  width: 100%;
+  align-self: flex-end;
+  margin-left: 20rem;
+}
+
+.img-map {
+  max-width: 1110px;
+  width: 100%;
+  margin-top: 50px;
+}
+
+.btn {
+  max-width: 125px;
+  width: 100%;
+  padding: 10px;
+  color: #FFFFFF;
+  background-color: #4A4FF2;
+  margin-top: 38px;
+  border: none;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 700;
+}
+
+.btn:hover {
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 38px;
+}
+
+input {
+  border: none;
+  border-bottom: 1px solid grey;
+}
+/*# sourceMappingURL=contact.css.map */

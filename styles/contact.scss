@@ -1,0 +1,61 @@
+@import "fonts";
+@import "header";
+@import "footer";
+body {
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    align-items: space-between;
+    margin: 3rem 3rem;
+    padding: 3rem 3rem; 
+}
+.container {
+    max-width: 1110px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.text {
+    max-width: 475px;
+    width: 100%;
+}
+.text__head {
+    max-width: 475px;
+    width: 100%;
+    @include font-biggest;
+}
+.text__p {
+    max-width: 445px;
+    width: 100%;
+    @include font-smaller;
+}
+.form {
+    max-width: 475px;
+    width: 100%;
+    align-self: flex-end;
+    margin-left: 20rem;
+}
+.img-map {
+    max-width: 1110px;
+    width: 100%;
+    margin-top: 50px;
+}
+.btn {
+    max-width: 125px;
+    width: 100%;
+    padding: 10px;
+    color: #FFFFFF;
+    background-color: #4A4FF2;
+    margin-top: 38px;
+    border: none;
+    @include font-smaller;
+    font-weight: 700;
+}
+.btn:hover {
+    @include font-bigger;
+}
+input {
+    border: none;
+    border-bottom: 1px solid grey;
+}

@@ -28,3 +28,8 @@ $myFontSize-smaller: 16px;
     font-size: $myFontSize-bigger;
     line-height: 38px;
 }
+@mixin font-smaller {
+    font-weight: 400;
+    font-size: $myFontSize-smaller;
+    line-height: 26px;
+}
