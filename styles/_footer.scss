@@ -1,44 +1,48 @@
 .footer { 
     max-width: 1109px;
     width: 100%;
+    min-height: 23px;
     display: flex;
-    margin-top: 60px;
+    margin-top: 6rem;
     justify-content: space-between;
+    align-items: center;
 }
-.footer __nav {
+.footer__nav {
     max-width: 100px;
     width: 100%;
+    min-height: 23px;
 }
 .footer__nav__genesis {
     max-width: 90px;
     width: 100%;
-}
-.logo:hover {
-    
-}
-.footer__nav__genesis:hover {
-    max-width: 100px;
-    width: 100%;
+    min-height: 23px;
 }
 .footer__nav__contact-project {
    max-width: 200px;
    width: 100%;
+   min-height: 23px;
    display: inline;
 }
 .footer__nav__project {
     max-width: 67px;
     width: 100%;
-    margin-right: 29px;
+    min-height: 23px;
+    margin-right: 3rem;
 }
 .footer__nav__contact {
     max-width: 66px;
+    min-height: 23px;
     width: 100%;
+}
+.footer__nav__contact:hover, .footer__nav__project:hover {
+    min-height: 33px;
 }
 .footer__media {
     max-width: 95px;
     width: 100%;
+    min-height: 14px;
     display: flex;
 }
 .basket-logo, .insta-logo {
-    margin-right:24px;
+    margin-right: 1rem;
 }

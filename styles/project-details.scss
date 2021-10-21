@@ -13,41 +13,50 @@ body {
 .section__fresh-title {
     max-width: 1120px;
     width: 100%;
+    min-height: 130px;
     display: flex;
     justify-content: space-between;
-    padding: 3rem 3rem;
 }
 .title__head {
     max-width: 495px;
     width: 100%;
+    min-height: 130px;
     @include font-biggest;
+    margin-bottom: 3rem;
 }
 .title__paragraph {
     max-width: 635px;
     width: 100%;
+    min-height: 222px;
+    @include font-smaller;
 }
-.title__list {
-    max-width: 335px;
-    width: 100%;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: repeat(6, 1fr);
-    justify-content: flex-end;
+.title__content, .title__content2 {
+    border-bottom: 1px solid lightgray;
+    padding: 1rem;
+}
+.title__content {
+    color: gray;
+}
+.title__content2 {
+    @include font-small;
+    font-weight: 700;
 }
 .img {
     max-width: 1110px;
     width: 100%;
-    padding: 3rem 3rem; 
+    min-height: 100vh; 
 }
 .img-text {
     max-width: 1110px;
     width: 100%;
+    min-height: 93px;
     @include font-smaller;
     padding: 3rem 3rem;
 }
 .images-container {
     max-width: 1110px;
     width: 100%;
+    min-height: 400px;
     display: flex;
     justify-content: space-between;
 }

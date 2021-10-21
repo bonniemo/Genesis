@@ -2,15 +2,18 @@
     max-width: 1110px;
     width: 100%;
     display: flex;
-    margin-top: 96px;
+    margin-top: 9rem;
 }
-
 .hello {
-   width: 100%;
+    max-width: 635px;
+    width: 100%;
 }
 .design-progress {
+    max-width: 212px;
     width: 100%;
+    min-height: 34px;
     display: flex;
-    align-items: flex-end;
     justify-content: flex-end;
+    align-items: flex-end;
+    padding-left: 7rem;
 }

@@ -1,24 +1,26 @@
 .header {
   max-width: 1109px;
   width: 100%;
+  min-height: 23px;
   display: flex;
-  margin-top: 60px;
   justify-content: space-between;
+  align-items: center;
 }
 
 .header__nav {
   max-width: 100px;
   width: 100%;
+  min-height: 23px;
 }
 
 .header__nav__genesis {
   max-width: 90px;
+  min-height: 19px;
   width: 100%;
 }
 
-.header__nav__genesis:hover {
-  max-width: 100px;
-  width: 100%;
+.logo:hover {
+  min-height: 30px;
 }
 
 .header__nav__contact-project {
@@ -30,35 +32,46 @@
 .header__nav__project {
   max-width: 67px;
   width: 100%;
-  margin-right: 29px;
+  min-height: 23px;
+  margin-right: 3rem;
+}
+
+.header__nav__project:hover, .header__nav__contact:hover {
+  min-height: 33px;
 }
 
 .header__nav__contact {
   max-width: 66px;
   width: 100%;
+  min-height: 23px;
 }
 
 .container-hello {
   max-width: 1110px;
   width: 100%;
   display: flex;
-  margin-top: 96px;
+  margin-top: 9rem;
 }
 
 .hello {
+  max-width: 635px;
   width: 100%;
 }
 
 .design-progress {
+  max-width: 212px;
   width: 100%;
+  min-height: 34px;
   display: flex;
-  align-items: flex-end;
   justify-content: flex-end;
+  align-items: flex-end;
+  padding-left: 7rem;
 }
 
 .grid-container {
   max-width: 1110px;
   width: 100%;
+  min-height: 1960px;
   display: flex;
   align-items: flex-start;
   justify-content: center;
@@ -132,21 +145,43 @@ img {
 .container__love-work {
   max-width: 1079px;
   width: 100%;
+  min-height: 106px;
   display: flex;
+  justify-content: space-between;
   margin-top: 9rem;
+  margin-bottom: 9rem;
 }
 
-.love-work {
-  width: 100%;
+.skills {
+  color: gray;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22, 59px;
+  display: flex;
 }
 
-.container-awards .container-two {
+td {
+  padding: 1rem;
+  padding-right: 2rem;
+}
+
+.container-awards, .container-two {
   max-width: 1110px;
   width: 100%;
   min-height: 410px;
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
+  grid-template-columns: repeat(6, 1fr);
   grid-template-rows: 1fr 1fr;
+  padding-top: 3rem;
+}
+
+.container-awards {
+  border-top: solid 1px lightgrey;
+  border-bottom: solid 1px lightgrey;
+}
+
+.container-two {
+  border-bottom: solid 1px lightgray;
 }
 
 #awards {
@@ -166,7 +201,7 @@ img {
 }
 
 #year-top {
-  grid-area: 1/5/2/6;
+  grid-area: 1/6/2/7;
 }
 
 #best-nav {
@@ -182,31 +217,44 @@ img {
 }
 
 #year-bottom {
-  grid-area: 2/5/3/6;
+  grid-area: 2/6/3/7;
 }
 
 .awds {
   max-width: 121px;
   width: 100%;
   min-height: 28px;
+  font-size: 22px;
+  line-height: 28px;
+  font-weight: 700;
 }
 
 .col2 {
   max-width: 135px;
   width: 100%;
   min-height: 23px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22, 59px;
+  font-weight: 700;
 }
 
 .col3 {
   max-width: 190px;
   width: 100%;
   min-height: 110px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
 }
 
 .year {
   max-width: 39px;
   width: 100%;
   min-height: 20px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
 }
 
 #awards2 {
@@ -226,10 +274,10 @@ img {
 }
 
 #year-top2 {
-  grid-area: 1/5/2/6;
+  grid-area: 1/6/2/7;
 }
 
-#best-nav2 {
+#best-2 {
   grid-area: 2/3/3/4;
 }
 
@@ -242,63 +290,75 @@ img {
 }
 
 #year-bottom2 {
-  grid-area: 2/5/3/6;
+  grid-area: 2/6/3/7;
+}
+
+.app-text {
+  color: gray;
 }
 
 .footer {
   max-width: 1109px;
   width: 100%;
+  min-height: 23px;
   display: flex;
-  margin-top: 60px;
+  margin-top: 6rem;
   justify-content: space-between;
+  align-items: center;
 }
 
-.footer __nav {
+.footer__nav {
   max-width: 100px;
   width: 100%;
+  min-height: 23px;
 }
 
 .footer__nav__genesis {
   max-width: 90px;
   width: 100%;
-}
-
-.footer__nav__genesis:hover {
-  max-width: 100px;
-  width: 100%;
+  min-height: 23px;
 }
 
 .footer__nav__contact-project {
   max-width: 200px;
   width: 100%;
+  min-height: 23px;
   display: inline;
 }
 
 .footer__nav__project {
   max-width: 67px;
   width: 100%;
-  margin-right: 29px;
+  min-height: 23px;
+  margin-right: 3rem;
 }
 
 .footer__nav__contact {
   max-width: 66px;
+  min-height: 23px;
   width: 100%;
+}
+
+.footer__nav__contact:hover, .footer__nav__project:hover {
+  min-height: 33px;
 }
 
 .footer__media {
   max-width: 95px;
   width: 100%;
+  min-height: 14px;
   display: flex;
 }
 
 .basket-logo, .insta-logo {
-  margin-right: 24px;
+  margin-right: 1rem;
 }
 
 body {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  padding: 5rem;
 }
 
 .genesis {

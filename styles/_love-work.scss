@@ -1,15 +1,18 @@
 .container__love-work {
     max-width: 1079px;
     width: 100%;
+    min-height: 106px;
     display: flex;
+    justify-content: space-between;
     margin-top: 9rem;
+    margin-bottom: 9rem;
 }
-.love-work {
-    width: 100%;
+.skills {
+    color: gray;
+    @include font-small;
+    display: flex;
 }
-.skills-left{
-
-}
-.skills-right {
-
+td {
+    padding: 1rem;
+    padding-right: 2rem;
 }

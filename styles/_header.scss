@@ -1,24 +1,23 @@
 .header { 
     max-width: 1109px;
     width: 100%;
+    min-height: 23px;
     display: flex;
-    margin-top: 60px;
     justify-content: space-between;
+    align-items: center;
 }
 .header__nav {
     max-width: 100px;
     width: 100%;
+    min-height: 23px;
 }
 .header__nav__genesis {
     max-width: 90px;
+    min-height: 19px;
     width: 100%;
 }
 .logo:hover {
-    
-}
-.header__nav__genesis:hover {
-    max-width: 100px;
-    width: 100%;
+    min-height: 30px;
 }
 .header__nav__contact-project {
    max-width: 200px;
@@ -28,9 +27,14 @@
 .header__nav__project {
     max-width: 67px;
     width: 100%;
-    margin-right: 29px;
+    min-height: 23px;
+    margin-right: 3rem;
+}
+.header__nav__project:hover, .header__nav__contact:hover {
+    min-height: 33px;
 }
 .header__nav__contact {
     max-width: 66px;
     width: 100%;
+    min-height: 23px;
 }
